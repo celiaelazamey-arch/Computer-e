@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: الإبلاغ الخاص عن ثغرة
+    url: https://github.com/celiaelazamey-arch/Computer-e/security/advisories/new
+    about: يتطلب تفعيل Private vulnerability reporting من المالك. لا ترسل أسرارًا في Issue عامة.
+  - name: دليل التفعيل والنشر
+    url: https://github.com/celiaelazamey-arch/Computer-e/blob/main/docs/ACTIVATION.md
+    about: راجع خطوات Pages والاختبارات والأمان قبل الإبلاغ عن مشكلة إعداد.

@@ -1,0 +1,24 @@
+{
+  "name": "Computer-e — free static website",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Computer-e website",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "npm ci --ignore-scripts && npm run check",
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.vscode-pull-request-github"],
+      "settings": {
+        "editor.tabSize": 2,
+        "files.eol": "\n"
+      }
+    }
+  }
+}

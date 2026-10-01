@@ -1,0 +1,24 @@
+{
+  "name": "computer-e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "دليل عربي لإطلاق مشروعك باستخدام خدمات GitHub المجانية.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --root dist",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "check": "npm test && npm run build",
+    "github:check": "node scripts/github-setup.mjs --check",
+    "github:setup": "node scripts/github-setup.mjs --apply"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0"
+  }
+}

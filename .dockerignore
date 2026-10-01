@@ -1,0 +1,14 @@
+.git
+.github
+.arena
+.devcontainer
+node_modules
+dist
+test-results
+playwright-report
+coverage
+docs
+tests
+.env
+.env.*
+*.log

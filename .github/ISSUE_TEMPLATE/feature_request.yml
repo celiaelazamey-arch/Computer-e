@@ -1,0 +1,22 @@
+name: طلب ميزة
+description: اقترح تحسينًا للموقع أو تجربة إعداد GitHub
+title: '[Feature]: '
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: ما المشكلة التي تريد حلها؟
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: وصف التحسين المقترح
+    validations:
+      required: true
+  - type: textarea
+    id: cost
+    attributes:
+      label: الخصوصية والتكلفة
+      description: هل يحتاج التحسين خدمة خارجية أو بطاقة أو مفاتيح أو بيانات مستخدمين؟
